@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# PyTorch / 训练产物
+*.pth
+*.pt
+*.ckpt
+runs/
+
+# 数据集路径（不提交数据集本身）
+/home/ivi/zqx/ImageNette
+
+# 环境
+.env
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook 输出
+.ipynb_checkpoints/
+
+# 日志
+*.log
